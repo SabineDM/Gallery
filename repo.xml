@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<meta xmlns="http://exist-db.org/xquery/repo">
+    <description>Gallerie</description>
+    <author/>
+    <website/>
+    <status>alpha</status>
+    <license>GNU-LGPL</license>
+    <copyright>true</copyright>
+    <type>application</type>
+    <target>Gallerie</target>
+    <prepare>pre-install.xql</prepare>
+    <finish/>
+    <deployed>2013-06-04T07:53:01.507+02:00</deployed>
+</meta>

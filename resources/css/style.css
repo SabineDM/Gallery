@@ -1,0 +1,229 @@
+/* Application styles could go here */
+.box {
+    width:1300px;    
+}
+
+.textarea {
+    display:block;
+    position: absolute;
+    top: 150;
+    width: 250px;
+    height: 650px;
+    background-color: white;
+}
+.text {
+    overflow:auto;
+    border: solid 2px;
+    height: 500px;
+}
+
+.textmeta {
+    margin-top:5px;
+    list-style: none;
+    overflow:auto;
+    border: solid 2px;
+    height: 140px;
+}
+
+
+.gallery-container {
+    position: relative;
+    left:250px;
+    width: 800px;
+    height: 650px;
+    background-color: white;
+    border:2px solid;
+}
+
+.hide-text {
+    display:block;
+    position:absolute;
+    top:0;
+    left:0px;
+    width:20px;
+    height:650px;
+    background:grey;
+    border:2px solid;
+}
+.gallery {
+    margin-left:20px;
+    display:block;
+    width:1500px;
+}
+
+.gallery-control-previous {
+    left: 20px;
+}
+
+.gallery-container a:link, .gallery-container a:visited {
+    border: 0;
+    width:16px;
+}
+
+h2 {
+    text-align:center;
+}
+
+.gallery-container ul {
+    margin: 0;
+    padding: 0;
+}
+.gallery-container li {
+    display: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.gallery-container li.active {
+    display: block;
+}
+
+.gallery-container img {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.gallery-control-previous, .gallery-control-next, .fullscreen-control, .fullscreenoff-control {
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 10%;
+    z-index: 1000;
+    padding: 0 10px 10px;
+    border: 0;
+}
+
+
+
+.gallery-control-next {
+    right: 0;
+}
+
+.fullscreen-control {
+    right: 20px;
+    top: 0;
+    z-index:2000;
+    border:0;
+}
+.fullscreenoff-control{
+    right:20px;
+    top:0;
+    border:0;
+}
+
+.gallery-control-previous img, .gallery-control-next img, .hide-text img {
+    display: none;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.fullscreen-control img, .fullscreenoff-control img {
+    display:none;
+    position: absolute;
+    top:0;
+    left:0;
+}
+
+.gallery-control-previous:hover img, .gallery-control-next:hover img,
+.fullscreen-control:hover img, .fullscreenoff-control:hover img, .hide-text:hover img{
+    display: block;
+    border:0;
+}
+
+.film { 
+	margin: auto; 
+	position: absolute;
+	width: 800px;
+	padding-top: 5px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100px;
+}
+.film:hover img {
+    display: inline;
+    z-index: 1000;
+}
+.scrolls { 
+	overflow-x: scroll;
+	overflow-y: hidden;
+	height: 100px;
+} 
+.film ul{ 
+	margin: 0;
+	height: 90px;
+    width: 1300px;
+    list-style: none;
+} 
+.film img { 
+	max-height: 90px;
+	cursor: pointer;
+    display:block;
+    position:relative;
+}
+
+.film li {
+    display:inline;
+    background-repeat: no-repeat;
+}
+
+
+
+.gallery-expand-text {
+    position: absolute;
+    display: block;
+    height:650px;
+    margin-top:0;
+    border:0;
+    left:200px;
+    z-index:1000;
+    background-color: blue;
+}
+
+.gallery-expand-text img {
+    position: absolute;
+    width: 32px;
+    top: 160;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto 0;
+    display:none;
+}
+.toggle-text{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    display:block;
+}
+
+.toggle-text a:link, .toggle-text a:visited {
+    border: 0;
+    width:32px;
+}
+
+
+.gallery-expand-text:hover img {
+    display: block;
+    top:120px;
+    z-index:1000;
+    background-color: blue;
+}
+
+.fullscreen:-webkit-full-screen  { width: 100% }  
+.fullscreen:-moz-full-screen     { width: 100% }  
+.fullscreent:-ms-full-screen      { width: 100% }  
+.fullscreen:-o-full-screen       { width: 100% }  
+.fullscreen:fullscreen          { width: 100% } 
+
+
